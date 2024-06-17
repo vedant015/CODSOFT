@@ -1,10 +1,10 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class Score {
+public class Task2 {
     String subject;
     int MarksEach;
-    public Score(String subject, int MarksEach ){
+    public Task2(String subject, int MarksEach ){
         this.subject=subject;
         this.MarksEach=MarksEach;
     }
@@ -15,7 +15,7 @@ public class Score {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        ArrayList<Score> scores= new ArrayList<>();
+        ArrayList<Task2> scores= new ArrayList<>();
 
         int TotalMarks=0;
         while(true){
@@ -27,7 +27,7 @@ public class Score {
             System.out.print("Enter Marks :");
             int Markseach = scanner.nextInt();
             TotalMarks+=Markseach;
-            scores.add(new Score(subject,Markseach));
+            scores.add(new Task2(subject,Markseach));
         }
 
         double averagePercentage = (double) TotalMarks / scores.size();
@@ -48,7 +48,7 @@ public class Score {
         }
 
         System.out.println("Marks for each subject");
-        for (Score score : scores){
+        for (Task2 score : scores){
             score.marks();
         }
         System.out.println("Total Marks: "+TotalMarks);
