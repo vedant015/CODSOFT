@@ -74,8 +74,8 @@ class ATM{
     }
 
     public static void main(String[] args) {
-        Task3 transaction = new Task3(3000);
-        ATM atm = new ATM(transaction);
+        Task3 BankAccount = new Task3(3000);
+        ATM atm = new ATM(BankAccount);
         atm.transaction();
     }
 }
