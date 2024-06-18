@@ -56,8 +56,26 @@ class ATM{
                     }
                     break;
                 case 2:
-
+                    System.out.println("Enter amount to withdraw: ");
+                    double depositAmt = scanner.nextDouble();
+                    account.deposit(depositAmt);
+                    System.out.println("Deposit Sucessful! New balance "+ account.getBalance());
+                    break;
+                case 3:
+                    System.out.println("Account Balance is: "+ account.getBalance());
+                    break;
+                case 4:
+                    System.out.println("Exiting! Thank you! Have a nice day!");
+                    break;
+                default:
+                    System.out.println("Choose a valid option");
             }
         }
+    }
+
+    public static void main(String[] args) {
+        Task3 transaction = new Task3(3000);
+        ATM atm = new ATM(transaction);
+        atm.transaction();
     }
 }
