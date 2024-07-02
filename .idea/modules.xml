@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Codesoft.iml" filepath="$PROJECT_DIR$/Codesoft.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task 1 - Guess the Number/Task 1 - Guess the Number.iml" filepath="$PROJECT_DIR$/Task 1 - Guess the Number/Task 1 - Guess the Number.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task 2 - Student Grade Calculator/Task 2 - Student Grade Calculator.iml" filepath="$PROJECT_DIR$/Task 2 - Student Grade Calculator/Task 2 - Student Grade Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task 3- ATM Interface/Task 3- ATM Interface.iml" filepath="$PROJECT_DIR$/Task 3- ATM Interface/Task 3- ATM Interface.iml" />
+    </modules>
+  </component>
+</project>
